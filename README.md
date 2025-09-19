@@ -1,33 +1,44 @@
 # 🖥️ Tech Accessories App
 
-A sleek Flutter application showcasing the latest tech accessories with interactive UI and smooth navigation.
+A sleek Flutter application showcasing the latest **tech accessories** with interactive UI and smooth navigation.
+
+---
 
 ## ✨ Features
 
-- 🛒 Browse various tech accessories with detailed descriptions.
-- 🔁 Filter and search products by category.
-- 📦 Add items to cart and manage shopping list.
-- 🧪 Clean architecture with separation of concerns (UI, Controller, Model, Service).
-- 📱 Responsive UI for mobile and tablet devices.
-- 🎨 Dark mode support and modern design.
+- 🛒 Browse various tech accessories with detailed descriptions.  
+- 🔁 Filter and search products by category.  
+- 📦 Add items to cart and manage shopping list.  
+- 🧪 Clean architecture with separation of concerns (UI, Controller, Model, Service).  
+- 📱 Responsive UI for mobile and tablet devices.  
+- 🎨 Dark mode support and modern design.  
 
 ---
 
 ## 📸 Screenshots
 
-| Home Screen | Product Details |
-|------------|----------------|
-| ![Home Screen](https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/home_screen.png) | ![Product Details](https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/product_details.png) |
+| Home Screen | Product Details | Cart | Settings |
+|-------------|----------------|------|----------|
+| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![Settings](https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/settings_screen.png) |
 
-| Cart | Settings |
-|------------|------------|
-| ![Cart](https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/cart_screen.png) | ![Settings](https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/settings_screen.png) |
+| Keyboard | LCD Cart | Laptop Cart | Category |
+|----------|----------|-------------|----------|
+| ![KEYBOARD](https://github.com/user-attachments/assets/d4a6b787-663b-4c10-a2e9-53b67ffb9510) | ![LCD CART](https://github.com/user-attachments/assets/d3a0efad-7537-4f73-a5c0-5a5044f7f8c5) | ![Laptop Cart](https://github.com/user-attachments/assets/021dd5bb-85ce-4a7a-b4da-acb79169e53b) | ![Category](https://github.com/user-attachments/assets/62ed7ead-1f2d-4e90-9109-59b14dc8f6c0) |
 
 ---
 
 ## 🧱 Project Structure
 
-<img width="391" height="242" alt="Project Structure" src="https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/project_structure.png" />
+features/
+│── home/ # Home screen & dashboard
+│── products/ # Product listing & details
+│── cart/ # Cart management
+│── settings/ # App settings & dark mode
+│── search/ # Search & filter products
+│── core/ # Common utilities, theme, constants
+
+php-template
+Copy code
 
 ---
 
