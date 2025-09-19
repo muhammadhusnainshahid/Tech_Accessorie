@@ -4,6 +4,17 @@ A sleek Flutter application showcasing the latest **tech accessories** with inte
 
 ---
 
+## 🔗 Live Demo
+👉 [Try the App Here](https://ecomerce-apps.web.app/)
+
+<p align="left">
+  <a href="https://ecomerce-apps.web.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge&logo=flutter" alt="Live Demo"/>
+  </a>
+</p>
+
+---
+
 ## ✨ Features
 
 - 🛒 Browse various tech accessories with detailed descriptions.  
@@ -19,8 +30,7 @@ A sleek Flutter application showcasing the latest **tech accessories** with inte
 
 | Home Screen | Product Details | Cart | Settings |
 |-------------|----------------|------|----------|
-| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![SETTING](https://github.com/user-attachments/assets/ae82cb4c-d57e-4846-ab08-9a907909ab61)
-hots/settings_screen.png) |
+| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![SETTING](https://github.com/user-attachments/assets/ae82cb4c-d57e-4846-ab08-9a907909ab61) |
 
 | Keyboard | LCD Cart | Laptop Cart | Category |
 |----------|----------|-------------|----------|
@@ -30,16 +40,17 @@ hots/settings_screen.png) |
 
 ## 🧱 Project Structure
 
-features/
-│── home/ # Home screen & dashboard
-│── products/ # Product listing & details
-│── cart/ # Cart management
-│── settings/ # App settings & dark mode
-│── search/ # Search & filter products
-│── core/ # Common utilities, theme, constants
+```
 
-php-template
-Copy code
+features/
+│── home/          # Home screen & dashboard
+│── products/      # Product listing & details
+│── cart/          # Cart management
+│── settings/      # App settings & dark mode
+│── search/        # Search & filter products
+│── core/          # Common utilities, theme, constants
+
+```
 
 ---
 
@@ -72,3 +83,20 @@ Consider supporting me to keep creating open-source Flutter projects:
     <img src="https://img.shields.io/badge/BuyMeACoffee-Support-FFDD00?logo=buymeacoffee" alt="Buy Me a Coffee"/>
   </a>
 </p>
+
+## 📦 Installation
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/fitness-app.git
+
+# Navigate to project directory
+cd fitness-app
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+--
+📜 License
+This project is licensed under the MIT License.
+--
