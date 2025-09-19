@@ -4,7 +4,7 @@ A sleek Flutter application showcasing the latest **tech accessories** with inte
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Live Demo  
 👉 [Try the App Here](https://ecomerce-apps.web.app/)
 
 <p align="left">
@@ -30,33 +30,32 @@ A sleek Flutter application showcasing the latest **tech accessories** with inte
 
 | Home Screen | Product Details | Cart | Settings |
 |-------------|----------------|------|----------|
-| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![SETTING](https://github.com/user-attachments/assets/ae82cb4c-d57e-4846-ab08-9a907909ab61) |
+| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![Setting](https://github.com/user-attachments/assets/ae82cb4c-d57e-4846-ab08-9a907909ab61) |
 
 | Keyboard | LCD Cart | Laptop Cart | Category |
 |----------|----------|-------------|----------|
-| ![KEYBOARD](https://github.com/user-attachments/assets/d4a6b787-663b-4c10-a2e9-53b67ffb9510) | ![LCD CART](https://github.com/user-attachments/assets/d3a0efad-7537-4f73-a5c0-5a5044f7f8c5) | ![Laptop Cart](https://github.com/user-attachments/assets/021dd5bb-85ce-4a7a-b4da-acb79169e53b) | ![Category](https://github.com/user-attachments/assets/62ed7ead-1f2d-4e90-9109-59b14dc8f6c0) |
+| ![Keyboard](https://github.com/user-attachments/assets/d4a6b787-663b-4c10-a2e9-53b67ffb9510) | ![LCD Cart](https://github.com/user-attachments/assets/d3a0efad-7537-4f73-a5c0-5a5044f7f8c5) | ![Laptop Cart](https://github.com/user-attachments/assets/021dd5bb-85ce-4a7a-b4da-acb79169e53b) | ![Category](https://github.com/user-attachments/assets/62ed7ead-1f2d-4e90-9109-59b14dc8f6c0) |
 
 ---
 
 ## 🧱 Project Structure
 
-```
-
 features/
-│── home/          # Home screen & dashboard
-│── products/      # Product listing & details
-│── cart/          # Cart management
-│── settings/      # App settings & dark mode
-│── search/        # Search & filter products
-│── core/          # Common utilities, theme, constants
+│── home/ # Home screen & dashboard
+│── products/ # Product listing & details
+│── cart/ # Cart management
+│── settings/ # App settings & dark mode
+│── search/ # Search & filter products
+│── core/ # Common utilities, theme, constants
 
-```
+yaml
+Copy code
 
 ---
 
 ## 🧑‍💻 Author
 
-### Muhammad Husnain Shahid
+### Muhammad Husnain Shahid  
 
 <p align="left">
   <a href="https://github.com/muhammadhusnainshahid">
@@ -84,7 +83,11 @@ Consider supporting me to keep creating open-source Flutter projects:
   </a>
 </p>
 
+---
+
 ## 📦 Installation
+
+```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/fitness-app.git
 
@@ -96,7 +99,5 @@ flutter pub get
 
 # Run the app
 flutter run
---
 📜 License
 This project is licensed under the MIT License.
---
