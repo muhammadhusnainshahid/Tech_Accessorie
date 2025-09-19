@@ -19,7 +19,8 @@ A sleek Flutter application showcasing the latest **tech accessories** with inte
 
 | Home Screen | Product Details | Cart | Settings |
 |-------------|----------------|------|----------|
-| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![Settings](https://user-images.githubusercontent.com/YOUR_USERNAME/screenshots/settings_screen.png) |
+| ![Home](https://github.com/user-attachments/assets/8cbc495f-da50-465f-9754-79bef4331445) | ![Product Details](https://github.com/user-attachments/assets/8dd64827-bfe2-496e-adaa-5015c5ef6c6d) | ![Cart](https://github.com/user-attachments/assets/36181bdd-aae2-49c8-a63e-87e9ff0942d5) | ![SETTING](https://github.com/user-attachments/assets/ae82cb4c-d57e-4846-ab08-9a907909ab61)
+hots/settings_screen.png) |
 
 | Keyboard | LCD Cart | Laptop Cart | Category |
 |----------|----------|-------------|----------|
