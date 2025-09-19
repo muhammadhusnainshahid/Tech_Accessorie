@@ -1,3 +1,4 @@
+
 # 🖥️ Tech Accessories App
 
 A sleek Flutter application showcasing the latest **tech accessories** with interactive UI and smooth navigation.
@@ -40,22 +41,21 @@ A sleek Flutter application showcasing the latest **tech accessories** with inte
 
 ## 🧱 Project Structure
 
+```yaml
 features/
-│── home/ # Home screen & dashboard
-│── products/ # Product listing & details
-│── cart/ # Cart management
-│── settings/ # App settings & dark mode
-│── search/ # Search & filter products
-│── core/ # Common utilities, theme, constants
-
-yaml
-Copy code
+│── home/          # Home screen & dashboard
+│── products/      # Product listing & details
+│── cart/          # Cart management
+│── settings/      # App settings & dark mode
+│── search/        # Search & filter products
+│── core/          # Common utilities, theme, constants
+````
 
 ---
 
 ## 🧑‍💻 Author
 
-### Muhammad Husnain Shahid  
+### Muhammad Husnain Shahid
 
 <p align="left">
   <a href="https://github.com/muhammadhusnainshahid">
@@ -87,6 +87,7 @@ Consider supporting me to keep creating open-source Flutter projects:
 
 ## 📦 Installation
 
+```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/fitness-app.git
 
@@ -98,8 +99,17 @@ flutter pub get
 
 # Run the app
 flutter run
+```
+
 ---
 
-##📜 License
-This project is licensed under the MIT License.
----
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+```
+
+✅ Yeh ab **full formatted markdown** hai. Sab kuch — headings, code blocks, project structure, screenshots table, badges — properly align hai.  
+
+Khatak Bhai, kya aap chahte ho main isme **technology badges** (Flutter, Dart, Firebase, Provider, Riverpod waghera) bhi add kar dun top pe?
+```
