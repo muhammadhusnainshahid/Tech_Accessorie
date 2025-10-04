@@ -13,11 +13,6 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  google_fonts: ^6.2.1
-  responsive_sizer: ^3.3.1
-  flutter_svg: ^2.1.0
-  smooth_page_indicator: ^1.2.1
-  provider: ^6.1.5
   carousel_slider: ^5.0.0
   flutter_animate: ^4.5.2
   animate_do: ^4.2.0
@@ -31,64 +26,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  assets:
-    # Carousel / Common
-    - asset/c1.jpeg
-    - asset/c2.png
-    - asset/c3.jpeg
-    - asset/cart.png
-
-    # Product images
-    - asset/product/p1.png
-    - asset/product/p2.png
-    - asset/product/fan.png
-    - asset/product/fan2.png
-    - asset/product/cpu.png
-    - asset/product/cpu1.png
-    - asset/product/card.png
-
-    # Headphones
-    - asset/product/headphone1.png
-    - asset/product/headphone2.png
-    - asset/product/headphone3.png
-    - asset/product/headphone4.png
-    - asset/product/headphone5.png
-
-    # Keyboards
-    - asset/product/keyboard1.png
-    - asset/product/keyboard2.png
-    - asset/product/keyboard3.png
-    - asset/product/keyboard4.png
-    - asset/product/keyboard5.png
-
-    # Laptops
-    - asset/product/laptop1.png
-    - asset/product/laptop2.png
-    - asset/product/laptop3.png
-    - asset/product/laptop4.png
-    - asset/product/laptop5.png
-
-    # Mouse
-    - asset/product/mouse1.png
-    - asset/product/mouse2.png
-
-    # Screens
-    - asset/product/screen1.png
-    - asset/product/screen2.png
-    - asset/product/screen3.png
-    - asset/product/screen4.png
-    - asset/product/screen5.png
-
-    # Product Detail images
-    - asset/product/detailImg/d1.png
-    - asset/product/detailImg/d2.png
-    - asset/product/detailImg/d3.png
-
-    # Icons
-    - asset/icons/search.svg
-    - asset/icons/three dot.svg
-    - asset/icons/home.svg
-    - asset/icons/cart.svg
-    - asset/icons/lock.svg
-    - asset/icons/lines.svg
