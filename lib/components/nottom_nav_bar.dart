@@ -3,9 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tech_accessories_app/core/utils/image.dart';
-import 'package:tech_accessories_app/provider/bottomNavBar_provider.dart';
-import 'package:tech_accessories_app/views/cart/cart_screen.dart';
-import 'package:tech_accessories_app/views/explore_view/explore_screen.dart';
 import 'package:tech_accessories_app/views/home_view.dart';
 
 class BottomNavBar extends StatelessWidget {
@@ -61,8 +58,6 @@ class BottomNavBar extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 buildItem(homeIcon, 0, provider),
-                buildItem(cartIcon, 1, provider),
-                buildItem(lockIcon, 2, provider),
                 buildItem(linesIcon, 3, provider),
               ],
             ),
