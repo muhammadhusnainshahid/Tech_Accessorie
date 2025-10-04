@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tech_accessories_app/provider/bottomNavBar_provider.dart';
-
-import 'package:tech_accessories_app/components/nottom_nav_bar.dart';
-import 'package:tech_accessories_app/provider/cart_provider.dart';
-import 'package:tech_accessories_app/provider/explore_provider.dart';
 import 'package:tech_accessories_app/provider/product_provider.dart';
 import 'package:device_preview/device_preview.dart'; // 👈 added
 
@@ -27,8 +23,6 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, screenType) => MultiProvider(
         providers: [
           ChangeNotifierProvider(create: (_) => BottomnavbarProvider()),
-          ChangeNotifierProvider(create: (_) => ProductProvider()),
-          ChangeNotifierProvider(create: (_) => CartProvider()),
           ChangeNotifierProvider(create: (_) => ExploreProvider()),
         ],
         child: MaterialApp(
@@ -38,8 +32,6 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           ),
           home: BottomNavBar(),
-          // 👇 DevicePreview support
-          builder: DevicePreview.appBuilder,
           locale: DevicePreview.locale(context),
         ),
       ),
