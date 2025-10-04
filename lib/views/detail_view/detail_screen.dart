@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:tech_accessories_app/core/utils/const.dart';
-import 'package:tech_accessories_app/core/utils/image.dart';
-import 'package:tech_accessories_app/components/appGradientWidget.dart';
-import 'package:tech_accessories_app/core/utils/size_extension.dart';
 import 'package:tech_accessories_app/views/detail_view/widget/product_infoWidget.dart';
 
 class DetailScreen extends StatefulWidget {
@@ -79,36 +75,6 @@ class _DetailScreenState extends State<DetailScreen>
                   ProductInfowidget(product: widget.product),
                 ],
               ),
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-
-  Row _detailAppBar(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: CircleAvatar(
-            radius: 30,
-            backgroundColor: Colors.white.withOpacity(0.6),
-            child: Icon(
-              Icons.arrow_back_ios_new,
-              color: Colors.black,
-              size: 20.sp,
-            ),
-          ),
-        ),
-        SvgPicture.asset(
-          threeDotIcon,
-          color: Colors.white.withOpacity(0.6),
-          width: 7.w,
-        ),
       ],
     );
   }
