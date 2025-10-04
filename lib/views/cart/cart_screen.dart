@@ -86,47 +86,6 @@ class _CartScreenState extends State<CartScreen> {
                                           ),
                                         ),
                                       ],
-                                    ),
-                                    const Spacer(),
-                                    Container(
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(30),
-                                        border: Border.all(
-                                          color: Colors.black,
-                                          width: 2,
-                                        ),
-                                      ),
-                                      child: Row(
-                                        children: [
-                                          IconButton(
-                                            onPressed: () {
-                                              provider.decreamentuantity(
-                                                product.id,
-                                              );
-                                              provider.removeFromCart(product);
-                                            },
-                                            icon: Icon(Icons.remove),
-                                          ),
-                                          Text(
-                                            provider
-                                                .getquantity(product.id)
-                                                .toString(),
-                                            style: GoogleFonts.kanit(
-                                              fontSize: 18.sp,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                          IconButton(
-                                            onPressed: () => provider
-                                                .increamentuantity(product.id),
-                                            icon: Icon(Icons.add),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              );
                             },
                           ),
                         ),
@@ -195,12 +154,7 @@ class checkOutWidget extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
-                  Text(
-                    "\$${provider.shippingPrice.toStringAsFixed(2)}",
-                    style: GoogleFonts.kanit(
-                      fontSize: 20.sp,
-                      color: Colors.white,
-                    ),
+                 
                   ),
                 ],
               ),
@@ -236,13 +190,7 @@ class checkOutWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30),
                     color: Colors.amber,
                   ),
-                  child: Center(
-                    child: Text(
-                      'Checkout',
-                      style: headingStyle(
-                        context,
-                      ).copyWith(fontSize: 19.sp, letterSpacing: 1),
-                    ),
+                 
                   ),
                 ),
                 onPressed: () {},
